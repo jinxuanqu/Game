@@ -1,0 +1,323 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<screenTitle>Jinxuan Qu's final project</screenTitle>
+<maxStringSize>50</maxStringSize>
+
+<frameCap>60</frameCap>
+<framesAreCapped>true</framesAreCapped>
+
+<frameMax>200</frameMax>
+<username>jinxuaq</username>
+
+<orbsNum>16</orbsNum>
+<safeDistance>100</safeDistance>
+
+<view>
+  <width>854</width>
+  <height>600</height>
+</view>
+
+<world>
+  <width>10000</width>
+  <height>960</height>
+</world>
+
+<clock>
+  <fpsLoc x="10" y="30"/>
+  <secondsLoc x="10" y="50"/>
+</clock>
+
+<hud>
+  <width>200</width>
+  <height>150</height>
+  <xLoc>10</xLoc>
+  <yLoc>20</yLoc>
+</hud>
+
+<world1>
+  <file>images/sky.bmp</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>4</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>3830</width>
+  <height>960</height>
+  <transparency>false</transparency>
+</world1>
+
+<world2>
+  <file>images/mountain.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>2</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>3830</width>
+  <height>960</height>
+  <transparency>false</transparency>
+</world2>
+
+<world3>
+  <file>images/hills.bmp</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>1</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>3830</width>
+  <height>960</height>
+  <transparency>false</transparency>
+</world3>
+
+<win>
+  <file>images/win.png</file>
+  <factor>1</factor>
+  <width>1023</width>
+  <height>768</height>
+  <transparency>false</transparency>
+</win>
+<dead>
+  <file>images/died.png</file>
+  <factor>1</factor>
+  <width>1023</width>
+  <height>768</height>
+  <transparency>false</transparency>
+</dead>
+
+<font name="font">
+  <file>font/dyslexic-bold.otf</file>
+  <size>16</size>
+  <red>0</red>
+  <green>0</green>
+  <blue>0</blue>
+  <unused>0</unused>
+</font>
+
+<player>
+  <file>images/player.bmp</file>
+  <startLoc x="120" y="450"/>
+
+  <frames>5</frames>
+  <frameInterval>200</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>140</width>
+  <height>200</height>
+  <speedX>-200</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</player>
+
+<playerLeft>
+  <file>images/playerLeft.bmp</file>
+  <startLoc x="120" y="450"/>
+
+  <frames>5</frames>
+  <frameInterval>400</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>140</width>
+  <height>200</height>
+  <speedX>-200</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</playerLeft>
+
+<playerDead>
+  <file>images/dead.bmp</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>140</width>
+  <height>200</height>
+  <startLoc x="120" y="450"/>
+  <speedX>-200</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency> 
+</playerDead>
+
+<playerBullet>
+  <file>images/bullet.bmp</file>
+  <width>100</width>
+  <height>100</height>
+  <src x="0" y="0"/>
+  <startLoc x="320" y="240"/>
+  <speed x="0" y="0"/>
+  <transparency>true</transparency>
+  <SpeedX>150</SpeedX>
+  <strategy>perpixel</strategy>
+  <BulletInterval>200</BulletInterval>
+  <Distance>200</Distance>
+</playerBullet>
+
+<actionRight>
+  <file>images/shoot.bmp</file>
+  <startLoc x="120" y="450"/>
+
+  <frames>5</frames>
+  <frameInterval>200</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>140</width>
+  <height>200</height>
+  <speedX>-200</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</actionRight>
+
+<actionLeft>
+  <file>images/shootLeft.bmp</file>
+  <startLoc x="120" y="450"/>
+
+  <frames>5</frames>
+  <frameInterval>200</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>140</width>
+  <height>200</height>
+  <speedX>-200</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</actionLeft>
+
+<enemy>
+  <file>images/enemy.bmp</file>
+  <startLoc x="120" y="140"/>
+
+  <frames>4</frames>
+  <frameInterval>200</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>100</width>
+  <height>100</height>
+  <speedX>-300</speedX>
+  <speedY>10</speedY>
+
+  <scale min="0.2" max="1.5"/>
+  <transparency>true</transparency>
+</enemy>
+
+<enemyLeft>
+  <file>images/enemyLeft.bmp</file>
+  <startLoc x="120" y="140"/>
+
+  <frames>4</frames>
+  <frameInterval>200</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>100</width>
+  <height>100</height>
+  <speedX>-300</speedX>
+  <speedY>10</speedY>
+  <scale min="0.2" max="1.5"/>
+  <transparency>true</transparency>
+</enemyLeft>
+
+<enemy2>
+  <file>images/greenball.bmp</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>100</width>
+  <height>100</height>
+  <startLoc x="1320" y="450"/>
+  <speedX>-175</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>24</size>
+    <distance>200</distance>
+  </chunk>
+</enemy2>
+
+<enemy2Left>
+  <file>images/greenball.bmp</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>100</width>
+  <height>100</height>
+  <startLoc x="1320" y="450"/>
+  <speedX>-175</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>24</size>
+    <distance>200</distance>
+  </chunk>
+</enemy2Left>
+
+<enemy1>
+  <file>images/foxRight.bmp</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>256</width>
+  <height>256</height>
+  <startLoc x="1320" y="450"/>
+  <speedX>-175</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>24</size>
+    <distance>200</distance>
+  </chunk>
+</enemy1>
+
+<enemy1Left>
+  <file>images/foxLeft.bmp</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>256</width>
+  <height>256</height>
+  <startLoc x="1000" y="450"/>
+  <speedX>200</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>64</size>
+    <distance>200</distance>
+  </chunk>
+</enemy1Left>
+
+<enemy3>
+  <file>images/enemy3Right.bmp</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>256</width>
+  <height>256</height>
+  <startLoc x="1000" y="450"/>
+  <speedX>200</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>64</size>
+    <distance>200</distance>
+  </chunk>
+</enemy3>
+
+<enemy3Left>
+  <file>images/enemy3Left.bmp</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>100</width>
+  <height>100</height>
+  <startLoc x="1000" y="450"/>
+  <speedX>200</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>64</size>
+    <distance>200</distance>
+  </chunk>
+</enemy3Left>
+
+</GameData>

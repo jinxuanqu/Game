@@ -1,0 +1,65 @@
+Name: Jinxuan Qu
+Clemson Email Address: jinxuaq@clemson.edu
+
+Project no: 6
+Project due date: April 24, 11:59 PM.
+
+Sprites for my project (technology, how built, source):
+
+1. player by using player class.
+2. enemy by using sprite class.
+3. bee by using multiSprite class.
+
+The image source came from game wooparoo saga and Internet.
+Cutting into many small components, draw some new things and composite them by using Gimp. 
+
+
+Project description: (what it does, what it doesn't do, any specific
+   problems, any extras that you have added)
+
+1. Video with mp4 format.
+2. HUD shows for firs 3 seconds, or press F1 to show HUD.
+3. Sound and music which came from game wooparoo saga and course’s example.
+4. Collision detection.
+5. Explosions.
+6. Projectiles.
+7. AI by using smartSprite class.
+8. god mod by pressing g on keyboard.
+9. restart feature by pressing h on keyboard.
+10. Pool mode when using shooting on bullets and bullet class.
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------
+| Cap fps       |              |
+--------------------------------
+| Tracker       |              |
+--------------------------------
+| Sprites       |              |
+--------------------------------
+| Factory       |              |
+--------------------------------
+| Drawable*     |              |
+--------------------------------
+| game.xml      |              |
+--------------------------------
+| Leaks         |              |
+--------------------------------
+| F4/frames     |              |
+--------------------------------
+| Submission    |              |
+--------------------------------
+| README        |              |
+--------------------------------
+
+
